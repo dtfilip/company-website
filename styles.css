@@ -1,0 +1,88 @@
+body{
+  background: url('images/sky.jpg') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:'Arvo', serif;
+}
+
+.navbar{
+  background-color:rgba(0,0,0,0.5);
+}
+
+.nav-item{
+  margin-right:70px;
+}
+
+.nav-item:hover{
+  border-bottom:1px solid #00ffbb;
+}
+
+.nav-link{
+  color:#fff;
+  font-size:17px;
+}
+
+.nav-link:hover{
+  color:#fff;
+  font-size:18px;
+}
+
+.jumbotron{
+  background-color:transparent;
+  color:#fff;
+  text-align:center;
+  letter-spacing:2.5px;
+}
+
+.bodyimage{
+  height:100px;
+}
+
+.col-md-4{
+  text-align:center;
+  color:#fff;
+}
+
+.icons p{
+  font-size:15px;
+}
+
+.container{
+  max-width:1000px;
+}
+
+.contact{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:200px;
+}
+
+.btn{
+  background:rgba(0,255,184,0.5);
+  border:none;
+  border-radius:10px;
+  color:#fff;
+  font-size:18px;
+  padding:10px 70px;
+  letter-spacing:1.3px;
+}
+
+.btn:hover{
+  background-color:rgba(0,0,0,0.5);
+  color:#fff;
+  border:none;
+}
+
+.footer{
+  background-color:rgba(0,0,0,0.5);
+  color:grey;
+  font-size:15px;
+  padding:10px 0;
+}
+
+@media(max-width:760px){
+  bodyimage{
+    height:70px;
+  }
+}
